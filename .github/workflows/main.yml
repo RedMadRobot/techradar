@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [android/radar]
+
+jobs:
+  build:
+    name: Build
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout sources
+          uses: actions/checkout@v2
+
+        - name: Setup nodeJs
+          uses: actions/setup-node@v2
+          with:
+            node-version: '10.x'
+
+        - name: Install dependencies
+          run: npm install
+
+        - name: Build
+          run: ASSET_PATH=/techradar/ npm run build
+
+        - name: Deploy
+          uses: JamesIves/github-pages-deploy-action@4.1.7
+          with:
+            branch: android/radar
+            folder: dist
+            target-folder: docs
+
