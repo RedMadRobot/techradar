@@ -20,6 +20,9 @@ if (env) {
 
 const main = ['./src/site.js']
 const common = ['./src/common.js']
+
+const ASSET_PATH = process.env.ASSET_PATH || '/';
+
 let devtool
 
 if (isDev) {
@@ -66,8 +69,8 @@ module.exports = {
 
   output: {
     path: buildPath,
-    publicPath: '/',
-    filename: '[name].[hash].js',
+    publicPath: ASSET_PATH,
+    filename: '[name].[hash].js'
   },
 
   module: {
