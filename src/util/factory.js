@@ -139,7 +139,7 @@ const GoogleSheet = function (sheetReference, sheetName) {
   }
 
   self.init = function () {
-    plotLoading()
+
     return self
   }
 
@@ -168,7 +168,6 @@ const CSVDocument = function (url) {
   }
 
   self.init = function () {
-    plotLoading()
     return self
   }
 
@@ -196,7 +195,6 @@ const JSONFile = function (url) {
   }
 
   self.init = function () {
-    plotLoading()
     return self
   }
 
@@ -224,40 +222,8 @@ const GoogleSheetInput = function () {
   var sheet
 
   self.build = function () {
-    var domainName = DomainName(window.location.search.substring(1))
-    var queryString = window.location.href.match(/sheetId(.*)/)
-    var queryParams = queryString ? QueryParams(queryString[0]) : {}
-
-    if (domainName && queryParams.sheetId.endsWith('.csv')) {
-      sheet = CSVDocument(queryParams.sheetId)
-      sheet.init().build()
-    } else if (domainName && queryParams.sheetId.endsWith('.json')) {
-      sheet = JSONFile(queryParams.sheetId)
-      sheet.init().build()
-    } else if (domainName && domainName.endsWith('google.com') && queryParams.sheetId) {
-      sheet = GoogleSheet(queryParams.sheetId, queryParams.sheetName)
-      console.log(queryParams.sheetName)
-
-      sheet.init().build()
-    } else {
-      var content = d3
-        .select('body')
-        .append('div')
-        .attr('class', 'input-sheet')
-      setDocumentTitle()
-
-      plotLogo(content)
-
-      var bannerText =
-        '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
-        ' to generate an <br />interactive version of your Technology Radar. Not sure how? <a href ="https://www.thoughtworks.com/radar/how-to-byor">Read this first.</a></p></div>'
-
-      plotBanner(content, bannerText)
-
-      plotForm(content)
-
-      plotFooter(content)
-    }
+        sheet = CSVDocument("sheets/rmr_android.csv")
+        sheet.init().build()
   }
 
   return self

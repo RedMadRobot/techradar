@@ -116,6 +116,10 @@ module.exports = {
         ],
       },
       {
+        test: /\.(csv)$/,
+        loader: 'file-loader?name=sheets/[name].[ext]'
+      },
+      {
         test: require.resolve('jquery'),
         use: [
           { loader: 'expose-loader', options: 'jQuery' },
