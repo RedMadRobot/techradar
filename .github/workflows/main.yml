@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [android/radar]
+    branches: [radar/android]
 
 jobs:
   build:
