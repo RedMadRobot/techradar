@@ -1,4 +1,5 @@
 name,ring,quadrant,isNew,description
+Jetpack Compose,Пробуем,Библиотеки,TRUE,Взаимодействие с view
 View Binding,Используем,Библиотеки,FALSE,Взаимодействие с view
 Kotlin extensions,Устарело,Библиотеки,FALSE,Взаимодействие с view
 coil,Используем,Библиотеки,FALSE,Coroutine Image Loader
