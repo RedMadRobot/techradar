@@ -1,0 +1,30 @@
+name,ring,quadrant,isNew,description
+View Binding,Используем,Библиотеки,FALSE,Взаимодействие с view
+Kotlin extensions,Устарело,Библиотеки,FALSE,Взаимодействие с view
+coil,Используем,Библиотеки,FALSE,Coroutine Image Loader
+Insetter,Используем,Библиотеки,FALSE,Обработка инсетов
+Epoxy,Пробуем,Библиотеки,FALSE,Построение экранов на списках
+Groupie,Используем,Библиотеки,FALSE,Разбивка списков на айтемы и группы
+Dagger 2,Используем,Библиотеки,FALSE,
+Dagger Hilt,Используем,Библиотеки,FALSE,"Тоже Dagger, только проще"
+Retrofit,Используем,Библиотеки,FALSE,REST API клиент
+OkHttp,Используем,Библиотеки,FALSE,HTTP клиент
+Timber,Используем,Библиотеки,FALSE,Логирование
+Moshi,Используем,Библиотеки,FALSE,Работа с JSON
+kotlinx.serialization,Пробуем,Библиотеки,FALSE,"Работа с JSON, HOCON, XML и т.д."
+Gson,Устарело,Библиотеки,FALSE,Работа с JSON
+Paging 3,Пробуем,Библиотеки,FALSE,Новая попытка Google сделать пагинацию
+Room,Используем,Библиотеки,FALSE,"БД, абстракция над SQLite"
+security-crypto,Используем,Библиотеки,FALSE,
+ViewModel,Используем,Библиотеки,FALSE,Организация работы с UI
+Google Navigation,Используем,Библиотеки,FALSE,Навигация в приложении
+kotlinx.coroutines,Используем,Библиотеки,FALSE,"Coroutines, Flow"
+RxJava2 / RxJava3,Устарело,Библиотеки,FALSE,Многопоточность
+Kotest,Используем,Библиотеки,FALSE,Фреймворк для тестов
+Mockk,Используем,Библиотеки,FALSE,Фреймворк для тестов
+Kotlin,Используем,Язык,FALSE,
+Java,Устарело,Язык,FALSE,
+Detekt,Используем,Утилиты,FALSE,
+Android lint,Используем,Утилиты,FALSE,
+Multi module,Используем,Подходы,FALSE,
+Clean architecture,Используем,Подходы,FALSE,
