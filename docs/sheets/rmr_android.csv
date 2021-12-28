@@ -1,31 +1,95 @@
 name,ring,quadrant,isNew,description
-Jetpack Compose,Пробуем,Библиотеки,TRUE,Взаимодействие с view
-View Binding,Используем,Библиотеки,FALSE,Взаимодействие с view
-Kotlin extensions,Устарело,Библиотеки,FALSE,Взаимодействие с view
-coil,Используем,Библиотеки,FALSE,Coroutine Image Loader
-Insetter,Используем,Библиотеки,FALSE,Обработка инсетов
-Epoxy,Пробуем,Библиотеки,FALSE,Построение экранов на списках
-Groupie,Используем,Библиотеки,FALSE,Разбивка списков на айтемы и группы
+Chucker,Используем,Библиотеки,FALSE,
+coil,Используем,Библиотеки,FALSE,
 Dagger 2,Используем,Библиотеки,FALSE,
-Dagger Hilt,Используем,Библиотеки,FALSE,"Тоже Dagger, только проще"
-Retrofit,Используем,Библиотеки,FALSE,REST API клиент
-OkHttp,Используем,Библиотеки,FALSE,HTTP клиент
-Timber,Используем,Библиотеки,FALSE,Логирование
-Moshi,Используем,Библиотеки,FALSE,Работа с JSON
-kotlinx.serialization,Пробуем,Библиотеки,FALSE,"Работа с JSON, HOCON, XML и т.д."
-Gson,Устарело,Библиотеки,FALSE,Работа с JSON
-Paging 3,Пробуем,Библиотеки,FALSE,Новая попытка Google сделать пагинацию
-Room,Используем,Библиотеки,FALSE,"БД, абстракция над SQLite"
+Dagger Hilt,Используем,Библиотеки,FALSE,
+DebugPanel,Используем,Библиотеки,FALSE,
+Epoxy,Используем,Библиотеки,FALSE,
+Flipper,Используем,Библиотеки,FALSE,
+Google Navigation,Используем,Библиотеки,FALSE,
+gradle-infrastructure,Используем,Библиотеки,FALSE,
+Insetter,Используем,Библиотеки,FALSE,
+JUnit5,Используем,Библиотеки,FALSE,
+Kotest,Используем,Библиотеки,FALSE,
+kotlinx.coroutines,Используем,Библиотеки,FALSE,
+MapMemory,Используем,Библиотеки,FALSE,
+Mockk,Используем,Библиотеки,FALSE,
+Moshi,Используем,Библиотеки,FALSE,
+OkHttp,Используем,Библиотеки,FALSE,
+Pinkman,Используем,Библиотеки,FALSE,
+Retrofit,Используем,Библиотеки,FALSE,
+RMR KTX,Используем,Библиотеки,FALSE,
+Room,Используем,Библиотеки,FALSE,
+Rootbeer,Используем,Библиотеки,FALSE,
 security-crypto,Используем,Библиотеки,FALSE,
-ViewModel,Используем,Библиотеки,FALSE,Организация работы с UI
-Google Navigation,Используем,Библиотеки,FALSE,Навигация в приложении
-kotlinx.coroutines,Используем,Библиотеки,FALSE,"Coroutines, Flow"
-RxJava2 / RxJava3,Устарело,Библиотеки,FALSE,Многопоточность
-Kotest,Используем,Библиотеки,FALSE,Фреймворк для тестов
-Mockk,Используем,Библиотеки,FALSE,Фреймворк для тестов
-Kotlin,Используем,Язык,FALSE,
+Timber,Используем,Библиотеки,FALSE,
+Tink,Используем,Библиотеки,FALSE,
+View Binding,Используем,Библиотеки,FALSE,
+ViewModel,Используем,Библиотеки,FALSE,
+DataStore,Пробуем,Библиотеки,FALSE,
+Encrypted DataStore,Пробуем,Библиотеки,FALSE,
+ExoPlayer,Пробуем,Библиотеки,FALSE,
+Jetpack Compose,Пробуем,Библиотеки,FALSE,
+kotlinx.serialization,Пробуем,Библиотеки,FALSE,
+Paging 3,Пробуем,Библиотеки,FALSE,
+Protobuf,Пробуем,Библиотеки,FALSE,
+Cicirone,Устарело,Библиотеки,FALSE,
+Glide,Устарело,Библиотеки,FALSE,
+Groupie,Устарело,Библиотеки,FALSE,
+Gson,Устарело,Библиотеки,FALSE,
+JodaTime,Устарело,Библиотеки,FALSE,
+JUnit4,Устарело,Библиотеки,FALSE,
+Kotlin extensions,Устарело,Библиотеки,FALSE,
+mockito,Устарело,Библиотеки,FALSE,
+RxJava2 / RxJava3,Устарело,Библиотеки,FALSE,
+bash,Используем,Язык,FALSE,
+Gradle Kotlin DSL,Используем,Язык,FALSE,
+Groovy,Устарело,Язык,FALSE,
 Java,Устарело,Язык,FALSE,
-Detekt,Используем,Утилиты,FALSE,
-Android lint,Используем,Утилиты,FALSE,
-Multi module,Используем,Подходы,FALSE,
-Clean architecture,Используем,Подходы,FALSE,
+Kotlin,Используем,Язык,FALSE,
+markdown,Используем,Язык,FALSE,
+Ruby,Устарело,Язык,FALSE,
+toml,Используем,Язык,FALSE,
+yaml,Используем,Язык,FALSE,
+adb,Используем,Иструменты/Сервисы,FALSE,
+Amplitude,Используем,Иструменты/Сервисы,FALSE,
+Android lint,Используем,Иструменты/Сервисы,FALSE,
+Appmetrica,Используем,Иструменты/Сервисы,FALSE,
+Charles,Используем,Иструменты/Сервисы,FALSE,
+Danger,Используем,Иструменты/Сервисы,FALSE,
+Detekt,Используем,Иструменты/Сервисы,FALSE,
+docker,Используем,Иструменты/Сервисы,FALSE,
+editorconfig,Используем,Иструменты/Сервисы,FALSE,
+Fastlane,Используем,Иструменты/Сервисы,FALSE,
+Figma,Используем,Иструменты/Сервисы,FALSE,
+Firebase,Используем,Иструменты/Сервисы,FALSE,
+Git,Используем,Иструменты/Сервисы,FALSE,
+GitHub,Используем,Иструменты/Сервисы,FALSE,
+GitLab,Используем,Иструменты/Сервисы,FALSE,
+Gitlab CI,Используем,Иструменты/Сервисы,FALSE,
+Gradle,Используем,Иструменты/Сервисы,FALSE,
+httpie,Пробуем,Иструменты/Сервисы,FALSE,
+Jenkins,Устарело,Иструменты/Сервисы,FALSE,
+JIRA,Используем,Иструменты/Сервисы,FALSE,
+JIRA Automations,Пробуем,Иструменты/Сервисы,FALSE,
+Miro,Используем,Иструменты/Сервисы,FALSE,
+Notion,Используем,Иструменты/Сервисы,FALSE,
+Play service,Используем,Иструменты/Сервисы,FALSE,
+Proguard,Устарело,Иструменты/Сервисы,FALSE,
+Proxyman,Используем,Иструменты/Сервисы,FALSE,
+R8,Используем,Иструменты/Сервисы,FALSE,
+scrcpy,Используем,Иструменты/Сервисы,FALSE,
+Space,Пробуем,Иструменты/Сервисы,FALSE,
+Zeplin,Устарело,Иструменты/Сервисы,FALSE,
+ADR,Используем,Техники/подходы,FALSE,
+Clean architecture,Используем,Техники/подходы,FALSE,
+Declarative UI,Используем,Техники/подходы,FALSE,
+gherkin style,Используем,Техники/подходы,FALSE,
+In App Update,Пробуем,Техники/подходы,FALSE,
+LCE,Используем,Техники/подходы,FALSE,
+Multi module,Используем,Техники/подходы,FALSE,
+MVP,Устарело,Техники/подходы,FALSE,
+MVVMI,Используем,Техники/подходы,FALSE,
+Package by feature,Используем,Техники/подходы,FALSE,
+Package by layer,Используем,Техники/подходы,FALSE,
+Single state,Используем,Техники/подходы,FALSE,
